@@ -1,0 +1,409 @@
+
+    
+ 
+
+
+
+  <script>
+    function setBackgroundColor(color) {
+      document.body.style.backgroundColor = color;
+    }
+  </script>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stream✨✨</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: gray;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header {
+        background-color: inviisble
+        color: #007bff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .container {
+        max-width: 960px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #007bff;
+        text-align: center;
+    }
+    
+    p {
+        color: #333;
+    }
+    
+    .game {
+        background-color:;
+    ;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .game h2 {
+        color: #007bff;
+    }
+    
+    .game p {
+        color: blue;
+    }
+</style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Steam - сайт покупки игр</h1>
+    </div>
+            <h1> игры </h1>
+    <div class="container">
+        <div class="game">
+            <h2>rust</h2>
+            <p>игра где вас будут бить камнями
+            .</p>
+            <button>Купить</button>
+        </div>
+        <div class="game">
+            <h2>танки онлайн без трояна без вирусов онлайн без смс и звонков</h2>
+            <p>мне лень писать описание.</p>
+            <button>Купить</button>
+        </div>
+        <div class="game">
+            <h2>minecraft</h2>
+            <p> игра на выживание где вам придется добывать пищу блоки ресурсы итд</p>
+            <button>Купить</button>
+        </div>
+        <div class="game">
+            <h2>half life 1</h2>
+            <p>игра где будут испытания</p>
+            <button>Купить</button>
+</div>
+        <div class="game">
+            <h2>half life 2</h2>
+            <p>вторая версия игры халф лайф</p>
+            <button>Купить</button>
+
+</div>
+        <div class="game">
+            <h2>valfes sourse pack</h2>
+            <p> пак где будут игры как- half life 1,2 cs sourse portal 1,2 unturned team fortress</p>
+            <button>Купить</button>
+            </div>
+        <div class="game">
+            <h2>csgo sourse</h2>
+            <p>игра с пака в которой есть все дополнения как музыка скины итд</p>
+            <button>Купить</button>
+            </div>
+        <
+        <div class="game">
+            <h2>day of defeat</h2>
+            <p>как арма но графика не много хуже</p>
+            <button>Купить</button>
+            </div>
+        <div class="game">
+            <h2>the lab</h2>
+            <p>игра в которой нужно имееть VR очки и в ней будут испытания</p>
+            <button>Купить</button>
+            </div>
+        
+            
+               </div>
+               <h1> дополнения </h1>
+               
+      
+            <h2>полный аккаунт в игре pixel gun в котороем есть все оружия и броня</h2>
+            <p>(игра идет в подарок)</p>
+            <button>Купить</button>
+         
+        <div class="game">
+            <h2>все скины и dlc в игре раст</h2>
+            <p>игру покупать отдельно!</p>
+            <button>Купить</button>
+            </div>
+        <div class="game">
+            <h2>аккаунт тикток с 1000 подписчиков</h2>
+            <p>1000 подписчиков на ваш аккаунт (реальные люди)</p>
+            <button>Купить</button>
+            </div>
+        
+   
+ 
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
+
+
+
+
+ 
+          
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+  
+   
+
+           
+   
+    
+   
+  
+ 
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Синий фон</title>
+  <style>
+    body {
+      background-color: 8yEELlKJW5xJwmgMt3pQuPaBq5cMR5ctaAlC0EAKJTM4FoYAscWlQA2;
+    }
+  </style>
+</head>
+<body>
+
+  
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
+<ul>
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Отзывы о Steam</title>
+</head>
+<body>
+  <h1>Отзывы о Steam</h1>
+  <ul>
+    <li><b><h1>erm what the sigma:</b> Stream - отличный сайт для покупки игр. У них огромный выбор, и цены очень конкурентоспособные.</li>
+    <li><b><h1>idkl:</b> Я купил несколько игр на Stream, и у меня никогда не было никаких проблем. Сервис отличный, и у меня всегда был положительный опыт.</li>
+ 
+    <li><b><h1>qhox:</b> Мне нравится Stream, потому что у них есть отличная система возврата средств. Я несколько раз возвращал игры, и процесс всегда был быстрым и простым.</li>
+    <li><b><h1>who:</b> Я рекомендую Stream. Я купил несколько игр и получил их за 30 секунд .</li>
+  </ul>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html> </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.l
